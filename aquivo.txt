@@ -1,0 +1,25 @@
+1. Benefícios para o Time de Desenvolvimento
+
+Controle de Versão: Mantém um histórico detalhado de todas as modificações.
+
+Colaboração Eficiente: Permite trabalho simultâneo sem conflitos.
+
+Rastreabilidade: Facilita a auditoria e o monitoramento das alterações.
+
+Automatização: Integra-se a pipelines de CI/CD.
+
+Segurança e Backup: Protege contra perda de código e acessos não autorizados.
+
+2. Reflexão e Impacto no Gerenciamento de Artefatos
+
+A prática de gerenciamento de artefatos utilizando ferramentas de gestão de configuração impacta diretamente diversas áreas estratégicas:
+
+Estratégia: Facilita a execução de projetos alinhados aos objetivos organizacionais.
+
+Governança: Garante conformidade com padrões e melhores práticas.
+
+ITIL: Melhora a gestão de mudanças e liberações.
+
+COBIT: Apoia o gerenciamento eficaz da TI corporativa.
+
+ESG: Reduz impacto ambiental por meio da digitalização e melhora a inclusão e transparência.
