@@ -1,0 +1,12 @@
+{% extends 'carlosapp/base.html' %}
+{% load static %}
+
+<title>{% block title %} eletrodomesticos {% endblock title %}</title>
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'Css/style.css' %}">
+{% endblock styles %}
+
+{% block content %}
+    <h1>eletrodomesticos</h1>
+{% endblock content %}

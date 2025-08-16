@@ -1,0 +1,15 @@
+
+.produto{
+    display: flex;
+    background-color: #4241413b;
+    padding: 10px;
+} 
+
+.produto-item{
+   
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+   
+    
+}

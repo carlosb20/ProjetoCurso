@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtualenv
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Arquivos de configuração local
+*.sqlite3
+db.sqlite3
+*.log
+
+# Configurações do Django
+media/
+staticfiles/
+local_settings.py
+
+# Cache do Django
+*.pot
+*.pyc
+*.mo
+
+# IDEs / Editores
+.vscode/
+.idea/
+*.swp
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

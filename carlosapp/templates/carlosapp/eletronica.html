@@ -1,0 +1,27 @@
+
+{% extends 'carlosapp/base.html' %}
+{% load static %}
+
+{% block title %} eletronica {% endblock title %}
+
+{% block styles %}
+    <link rel="stylesheet" href="{% static 'Css/style.css' %}">
+{% endblock styles %}
+
+{% block content %}
+
+    <h1 style="padding: 10px;"> categoria {{ categoria }}</h1>
+
+    <hr>
+    <div style="display: flex;">
+        {% for p in produtos %}
+            <div style="padding: 10px;">
+                
+                <img src="{{ p.imagem.url }}" alt="" style="width: 150px;height: 150px; padding: 10px;">
+                <h2 style="padding: 5px; font-size: 15px;">{{ p.nome }}</h2>
+                <p style="font-size: 15px;">De:<s> R$ {{ p.subi_preco }}</s> R$ {{ p.preco }}</p>
+            </div>
+        {% endfor %}
+    </div>
+    
+{% endblock content %}
